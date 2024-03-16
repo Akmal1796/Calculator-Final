@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div">
+
+        <p class="js-display display"></p>
+
+        <button onclick="addCalculation('1')" class="calc-btn">1</button>
+        <button onclick="addCalculation('2')" class="calc-btn">2</button>
+        <button onclick="addCalculation('3')" class="calc-btn">3</button>
+        <button onclick="addCalculation(' + ')" class="oper-btn">+</button><br>
+
+        <button onclick="addCalculation('4')" class="calc-btn">4</button>
+        <button onclick="addCalculation('5')" class="calc-btn">5</button>
+        <button onclick="addCalculation('6')" class="calc-btn">6</button>
+        <button onclick="addCalculation(' - ')" class="oper-btn">-</button><br>
+
+        <button onclick="addCalculation('7')" class="calc-btn">7</button>
+        <button onclick="addCalculation('8')" class="calc-btn">8</button>
+        <button onclick="addCalculation('9')" class="calc-btn">9</button>
+        <button onclick="addCalculation(' * ')" class="oper-btn">*</button><br>
+
+        <button onclick="addCalculation('0')" class="calc-btn">0</button>
+        <button onclick="addCalculation('.')" class="calc-btn">.</button>
+        <button onclick="endResult()" class="oper-btn">=</button>
+        <button onclick="addCalculation(' / ')" class="oper-btn">/</button><br>
+
+        <button onclick="clearResult()" class="calc-btn">Clear</button>
+    
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
